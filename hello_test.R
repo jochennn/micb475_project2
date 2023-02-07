@@ -9,7 +9,6 @@ head(group_10)
 
 #######
 print("to be or not to be")
-print("Sweet are the uses of adversity which, 
-      like the toad, ugly and venomous, 
-      wears yet a precious jewel in his head")
-print("in the beginning")
+
+#hello
+
