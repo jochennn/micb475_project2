@@ -2,6 +2,9 @@
 library(tidyr)
 library(dplyr)
 
+##### clear workspace ######
+rm(list = ls())
+
 ##### Read in data #####
 fish_metadata <- read.delim("fish_metadata.txt", sep = "\t")
 
@@ -58,5 +61,8 @@ for (i in 1:nrow(fish_mdata_filter)) {
 
 fish_mdata_filter
 
+colnames(fish_mdata_filter)[1]  <- "#SampleID" 
+head(fish_mdata_filter)
+
 ##### save data as txt #####
-write.table(fish_mdata_filter, file="binned_fish_metadata.txt", sep="\t")
+write.table(fish_mdata_filter, file="binned_fish_metadata.txt", sep="\t",row.names = FALSE,quote = FALSE)
