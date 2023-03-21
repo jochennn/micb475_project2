@@ -5,16 +5,16 @@ library(ape)
 library(tidyverse)
 
 ##### load in data needed #####
-metafp <- "./qiime_export_for_R/binned_fish_metadata.txt"
+metafp <- "./create_phyloseq_obj/inputs/binned_fish_metadata.txt"
 metadata <- read_delim(metafp, delim="\t")
 
-asvfp <- "./qiime_export_for_R/feature-table.txt"
+asvfp <- "./create_phyloseq_obj/inputs/feature-table.txt"
 asvs_sample_data <- read_delim(file = asvfp, delim="\t", skip=1)
 
-taxfp <- "./qiime_export_for_R/taxonomy.tsv"
+taxfp <- "./create_phyloseq_obj/inputs/taxonomy.tsv"
 taxonomy_data <- read_delim(taxfp, delim="\t")
 
-phylotreefp <- "./qiime_export_for_R/tree.nwk"
+phylotreefp <- "./create_phyloseq_obj/inputs/tree.nwk"
 phylotree <- read.tree(phylotreefp)
 
 ##### make data phyloseq compatible #####

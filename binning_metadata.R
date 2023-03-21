@@ -6,7 +6,7 @@ library(dplyr)
 rm(list = ls())
 
 ##### Read in data #####
-fish_metadata <- read.delim("fish_metadata.txt", sep = "\t")
+fish_metadata <- read.delim("./binning_metadata/inputs/fish_metadata.txt", sep = "\t")
 
 ##### Drop rows with missing values and habitat_depth_level2 == "not applicable" #####
 fish_mdata_filter<- fish_metadata%>%
@@ -65,4 +65,4 @@ colnames(fish_mdata_filter)[1]  <- "#SampleID"
 head(fish_mdata_filter)
 
 ##### save data as txt #####
-write.table(fish_mdata_filter, file="binned_fish_metadata.txt", sep="\t",row.names = FALSE,quote = FALSE)
+write.table(fish_mdata_filter, file="./binning_metadata/outputs/binned_fish_metadata.txt", sep="\t",row.names = FALSE,quote = FALSE)
