@@ -65,4 +65,6 @@ class(TAX)
 # Merge all into a phyloseq object
 fish_phyloseq <- phyloseq(ASV_table, SAMP, TAX, phylotree)
 
+#save as ".Rdata" file
+save(fish_phyloseq, file = "./create_phyloseq_obj/outputs/fish_phyloseq.Rdata")
 

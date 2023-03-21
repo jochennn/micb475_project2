@@ -3,6 +3,9 @@ library(phyloseq)
 library(microbiome)
 library(ggVennDiagram)
 
+# load phyloseq object
+load("./create_phyloseq_obj/outputs/fish_phyloseq.Rdata")
+
 # Convert to relative abundance
 fish_phyloseq_RA <- 
   transform_sample_counts(fish_phyloseq, fun=function(x) x/sum(x))
