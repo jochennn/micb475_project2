@@ -1,12 +1,5 @@
-##### install libraries #####
-if (!require("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
-
-BiocManager::install("phyloseq")
-
 ##### load libraries #####
 library(readr)
-library(phyloseq)
 library(phyloseq)
 library(ape)
 library(tidyverse)
@@ -15,13 +8,13 @@ library(tidyverse)
 metafp <- "./qiime_export_for_R/binned_fish_metadata.txt"
 metadata <- read_delim(metafp, delim="\t")
 
-asvfp <- "C:/Users/17782/Desktop/micb475/micb475_project2/qiime_export_for_R/final_filt-table_EXPORT/feature-table.txt"
+asvfp <- "./qiime_export_for_R/feature-table.txt"
 asvs_sample_data <- read_delim(file = asvfp, delim="\t", skip=1)
 
-taxfp <- "C:/Users/17782/Desktop/micb475/micb475_project2/qiime_export_for_R/taxonomy_EXPORT/taxonomy.tsv"
+taxfp <- "./qiime_export_for_R/taxonomy.tsv"
 taxonomy_data <- read_delim(taxfp, delim="\t")
 
-phylotreefp <- "C:/Users/17782/Desktop/micb475/micb475_project2/qiime_export_for_R/rooted_tree_EXPORT/tree.nwk"
+phylotreefp <- "./qiime_export_for_R/tree.nwk"
 phylotree <- read.tree(phylotreefp)
 
 ##### make data phyloseq compatible #####
