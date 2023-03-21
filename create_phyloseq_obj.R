@@ -20,6 +20,7 @@ phylotree <- read.tree(phylotreefp)
 ##### make data phyloseq compatible #####
 
 ##### format ASV table #####
+
 # save everything except first column (OTU ID) into a matrix
 asv_mat <- as.matrix(asvs_sample_data[,-1])
 
@@ -32,10 +33,13 @@ class(ASV_table)
 
 
 #### Format sample metadata ####
+
 # Save everything except sampleid as new data frame
 samp_df <- as.data.frame(metadata[,-1])
+
 # Make sampleids the rownames
 rownames(samp_df)<- metadata$`#SampleID`
+
 # Make phyloseq sample data with sample_data() function
 SAMP <- sample_data(samp_df)
 class(SAMP)
@@ -46,10 +50,13 @@ tax_mat <- taxonomy_data %>% select(-Confidence)%>%
   separate(col=Taxon, sep="; "
            , into = c("Domain","Phylum","Class","Order","Family","Genus","Species")) %>%
   as.matrix() # Saving as a matrix
+
 # Save everything except feature IDs 
 tax_mat <- tax_mat[,-1]
+
 # Make sampleids the rownames
 rownames(tax_mat) <- taxonomy_data$`Feature ID`
+
 # Make taxa table
 TAX <- tax_table(tax_mat)
 class(TAX)
