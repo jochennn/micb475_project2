@@ -37,23 +37,22 @@ o_i_core <- core_members(o_i_phyloseq, detection=0.001, prevalence=0.5)
 # venn diagram
 ggVennDiagram(x=list(c_e_core, c_i_core, o_e_core, o_i_core), 
               category.names=list(
-                "coastal/external", 
-                "coastal/internal", 
-                "open ocean/external", 
-                "open ocean/internal"
+                "c/e", 
+                "c/i", 
+                "o/e", 
+                "o/i"
                 ),
               label="count")
 
+
 # What are these ASVs?
+prune_taxa(o_e_core,fish_phyloseq) %>%
+  plot_bar(, fill="Genus") +
+    facet_wrap(.~anat_space_combine, scales="free")
+
 prune_taxa(o_i_core,fish_phyloseq) %>%
   plot_bar(, fill="Genus") +
   facet_wrap(.~anat_space_combine, scales="free")
-
-
-
-
-
-
 
 
 
