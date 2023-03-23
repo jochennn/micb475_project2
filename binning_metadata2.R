@@ -7,13 +7,15 @@ metadata <-
 
 #creating modified metadata file
 metadata2 <- select(metadata, 
-                    X.SampleID,
-                    habitat_depth_level2, 
-                    sample_type, 
-                    anatomical_location,
-                    spatial_region,
-                    anat_space_combine
+                    "X.SampleID",
+                    "habitat_depth_level2", 
+                    "sample_type", 
+                    "anatomical_location",
+                    "spatial_region",
+                    "anat_space_combine"
                     )
+
+colnames(metadata2)[1]  <- "#SampleID"
 
 # combining "mesopelagic" and "mesopelagic and benthopelagic" samples together
 metadata2$habitat_depth_level3 <- metadata2$habitat_depth_level2
@@ -41,7 +43,13 @@ write.table(
   quote = FALSE
 )
 
-
+write.table(
+  metadata2, 
+  file="./create_phyloseq_obj/inputs/binned_fish_metadata2.txt", 
+  sep="\t",
+  row.names = FALSE,
+  quote = FALSE
+)
 
 
 
