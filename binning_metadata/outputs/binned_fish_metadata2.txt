@@ -1,0 +1,413 @@
+X.SampleID	habitat_depth_level2	anat_hab	sample_type	anatomical_location	spatial_region	anat_space_combine	habitat_depth_level3
+13414.1.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.1.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.1.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.1.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.10.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.10.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.10.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.10.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.100.g.R1.fastq.gz	intertidal	intertidal_gill	gill	external	coastal	coastal/external	intertidal
+13414.100.hg.R1.fastq.gz	intertidal	intertidal_hindgut	hindgut	internal	coastal	coastal/internal	intertidal
+13414.100.midg.R1.fastq.gz	intertidal	intertidal_midgut	midgut	internal	coastal	coastal/internal	intertidal
+13414.100.s.R1.fastq.gz	intertidal	intertidal_skin	skin	external	coastal	coastal/external	intertidal
+13414.101.g.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.101.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.101.midg.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.101.s.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.102.g.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.102.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.102.midg.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.102.s.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.103.g.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.103.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.103.midg.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.103.s.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.11.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.11.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.11.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.11.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.12.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.12.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.12.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.12.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.13.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.13.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.13.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.13.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.14.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.14.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.14.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.14.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.15.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.15.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.15.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.15.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.16.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.16.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.16.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.16.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.17.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.17.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.17.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.17.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.18.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.18.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.18.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.18.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.19.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.19.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.19.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.19.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.2.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.2.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.2.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.2.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.20.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.20.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.20.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.20.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.21.gill.R1.fastq.gz	intertidal	intertidal_gill	gill	external	coastal	coastal/external	intertidal
+13414.21.hg.R1.fastq.gz	intertidal	intertidal_hindgut	hindgut	internal	coastal	coastal/internal	intertidal
+13414.21.midgut.R1.fastq.gz	intertidal	intertidal_midgut	midgut	internal	coastal	coastal/internal	intertidal
+13414.21.skin.R1.fastq.gz	intertidal	intertidal_skin	skin	external	coastal	coastal/external	intertidal
+13414.22.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.22.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.22.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.22.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.23.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.23.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.23.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.23.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.24.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.24.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.24.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.24.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.25.gill.R1.fastq.gz	intertidal	intertidal_gill	gill	external	coastal	coastal/external	intertidal
+13414.25.hg.R1.fastq.gz	intertidal	intertidal_hindgut	hindgut	internal	coastal	coastal/internal	intertidal
+13414.25.midgut.R1.fastq.gz	intertidal	intertidal_midgut	midgut	internal	coastal	coastal/internal	intertidal
+13414.25.skin.R1.fastq.gz	intertidal	intertidal_skin	skin	external	coastal	coastal/external	intertidal
+13414.26.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.26.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.26.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.26.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.27.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.27.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.27.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.27.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.28.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.28.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.28.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.28.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.29.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.29.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.29.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.29.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.3.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.3.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.3.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.3.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.30.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.30.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.30.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.30.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.31.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.31.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.31.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.31.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.32.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.32.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.32.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.32.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.33.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.33.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.33.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.33.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.34.gill.R1.fastq.gz	intertidal	intertidal_gill	gill	external	coastal	coastal/external	intertidal
+13414.34.hg.R1.fastq.gz	intertidal	intertidal_hindgut	hindgut	internal	coastal	coastal/internal	intertidal
+13414.34.midgut.R1.fastq.gz	intertidal	intertidal_midgut	midgut	internal	coastal	coastal/internal	intertidal
+13414.34.skin.R1.fastq.gz	intertidal	intertidal_skin	skin	external	coastal	coastal/external	intertidal
+13414.35.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.35.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.35.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.35.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.36.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.36.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.36.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.36.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.37.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.37.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.37.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.37.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.38.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.38.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.38.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.38.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.39.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.39.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.39.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.39.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.4.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.4.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.4.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.4.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.40.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.40.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.40.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.40.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.41.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.41.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.41.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.41.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.42.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.42.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.42.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.42.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.43.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.43.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.43.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.43.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.44.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.44.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.44.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.44.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.45.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.45.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.45.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.45.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.46.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.46.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.46.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.46.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.47.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.47.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.47.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.47.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.48.gill.R1.fastq.gz	intertidal	intertidal_gill	gill	external	coastal	coastal/external	intertidal
+13414.48.hg.R1.fastq.gz	intertidal	intertidal_hindgut	hindgut	internal	coastal	coastal/internal	intertidal
+13414.48.midgut.R1.fastq.gz	intertidal	intertidal_midgut	midgut	internal	coastal	coastal/internal	intertidal
+13414.48.skin.R1.fastq.gz	intertidal	intertidal_skin	skin	external	coastal	coastal/external	intertidal
+13414.49.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.49.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.49.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.49.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.5.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.5.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.5.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.5.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.50.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.50.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.50.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.50.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.51.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.51.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.51.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.51.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.52.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.52.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.52.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.52.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.53.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.53.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.53.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.53.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.54.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.54.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.54.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.54.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.55.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.55.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.55.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.55.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.58.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.58.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.58.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.58.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.59.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.59.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.59.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.59.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.6.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.6.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.6.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.6.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.60.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.60.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.60.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.60.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.61.gill.R1.fastq.gz	mesopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.61.hg.R1.fastq.gz	mesopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.61.midgut.R1.fastq.gz	mesopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.61.skin.R1.fastq.gz	mesopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.62.gill.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.62.hg.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.62.midgut.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.62.skin.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.63.gill.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.63.hg.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.63.midgut.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.63.skin.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.64.gill.R1.fastq.gz	mesopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.64.hg.R1.fastq.gz	mesopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.64.midgut.R1.fastq.gz	mesopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.64.skin.R1.fastq.gz	mesopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.65.gill.R1.fastq.gz	bathypelagic	bathypelagic_gill	gill	external	open ocean	open ocean/external	bathypelagic
+13414.65.hg.R1.fastq.gz	bathypelagic	bathypelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	bathypelagic
+13414.65.midgut.R1.fastq.gz	bathypelagic	bathypelagic_midgut	midgut	internal	open ocean	open ocean/internal	bathypelagic
+13414.65.skin.R1.fastq.gz	bathypelagic	bathypelagic_skin	skin	external	open ocean	open ocean/external	bathypelagic
+13414.66.gill.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.66.hg.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.66.midgut.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.66.skin.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.67.gill.R1.fastq.gz	intertidal	intertidal_gill	gill	external	coastal	coastal/external	intertidal
+13414.67.hg.R1.fastq.gz	intertidal	intertidal_hindgut	hindgut	internal	coastal	coastal/internal	intertidal
+13414.67.midgut.R1.fastq.gz	intertidal	intertidal_midgut	midgut	internal	coastal	coastal/internal	intertidal
+13414.67.skin.R1.fastq.gz	intertidal	intertidal_skin	skin	external	coastal	coastal/external	intertidal
+13414.68.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.68.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.68.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.68.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.69.gill.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.69.hg.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.69.midgut.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.69.skin.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.7.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.7.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.7.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.7.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.70.gill.R1.fastq.gz	abyssalpelagic	abyssalpelagic_gill	gill	external	open ocean	open ocean/external	abyssalpelagic
+13414.70.midgut.R1.fastq.gz	abyssalpelagic	abyssalpelagic_midgut	midgut	internal	open ocean	open ocean/internal	abyssalpelagic
+13414.70.skin.R1.fastq.gz	abyssalpelagic	abyssalpelagic_skin	skin	external	open ocean	open ocean/external	abyssalpelagic
+13414.71.gill.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.71.hg.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.71.midgut.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.71.skin.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.72.gill.R1.fastq.gz	mesopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.72.hg.R1.fastq.gz	mesopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.72.midgut.R1.fastq.gz	mesopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.72.skin.R1.fastq.gz	mesopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.73.gill.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.73.hg.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.73.midgut.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.73.skin.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.74.gill.R1.fastq.gz	mesopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.74.hg.R1.fastq.gz	mesopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.74.midgut.R1.fastq.gz	mesopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.74.skin.R1.fastq.gz	mesopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.75.gill.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.75.hg.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.75.midgut.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.75.skin.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.76.gill.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.76.hg.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.76.midgut.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.76.skin.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.77.gill.R1.fastq.gz	mesopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.77.hg.R1.fastq.gz	mesopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.77.midgut.R1.fastq.gz	mesopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.77.skin.R1.fastq.gz	mesopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.78.gill.R1.fastq.gz	abyssalpelagic	abyssalpelagic_gill	gill	external	open ocean	open ocean/external	abyssalpelagic
+13414.78.midgut.R1.fastq.gz	abyssalpelagic	abyssalpelagic_midgut	midgut	internal	open ocean	open ocean/internal	abyssalpelagic
+13414.78.skin.R1.fastq.gz	abyssalpelagic	abyssalpelagic_skin	skin	external	open ocean	open ocean/external	abyssalpelagic
+13414.79.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.79.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.79.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.79.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.8.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.8.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.8.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.8.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.80.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.80.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.80.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.80.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.82.gill.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.82.hg.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.82.midgut.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.82.skin.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.83.gill.R1.fastq.gz	bathypelagic	bathypelagic_gill	gill	external	open ocean	open ocean/external	bathypelagic
+13414.83.hg.R1.fastq.gz	bathypelagic	bathypelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	bathypelagic
+13414.83.midgut.R1.fastq.gz	bathypelagic	bathypelagic_midgut	midgut	internal	open ocean	open ocean/internal	bathypelagic
+13414.83.skin.R1.fastq.gz	bathypelagic	bathypelagic_skin	skin	external	open ocean	open ocean/external	bathypelagic
+13414.84.gill.R1.fastq.gz	bathypelagic	bathypelagic_gill	gill	external	open ocean	open ocean/external	bathypelagic
+13414.84.hg.R1.fastq.gz	bathypelagic	bathypelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	bathypelagic
+13414.84.midgut.R1.fastq.gz	bathypelagic	bathypelagic_midgut	midgut	internal	open ocean	open ocean/internal	bathypelagic
+13414.84.skin.R1.fastq.gz	bathypelagic	bathypelagic_skin	skin	external	open ocean	open ocean/external	bathypelagic
+13414.85.gill.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.85.hg.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.85.midgut.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.85.skin.R1.fastq.gz	mesopelagic and benthopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.86.gill.R1.fastq.gz	mesopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.86.hg.R1.fastq.gz	mesopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.86.midgut.R1.fastq.gz	mesopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.86.skin.R1.fastq.gz	mesopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.87.gill.R1.fastq.gz	bathypelagic	bathypelagic_gill	gill	external	open ocean	open ocean/external	bathypelagic
+13414.87.midgut.R1.fastq.gz	bathypelagic	bathypelagic_midgut	midgut	internal	open ocean	open ocean/internal	bathypelagic
+13414.87.skin.R1.fastq.gz	bathypelagic	bathypelagic_skin	skin	external	open ocean	open ocean/external	bathypelagic
+13414.88.gill.R1.fastq.gz	mesopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.88.hg.R1.fastq.gz	mesopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.88.midgut.R1.fastq.gz	mesopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.88.skin.R1.fastq.gz	mesopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.89.g.R1.fastq.gz	bathypelagic	bathypelagic_gill	gill	external	open ocean	open ocean/external	bathypelagic
+13414.89.midg.R1.fastq.gz	bathypelagic	bathypelagic_midgut	midgut	internal	open ocean	open ocean/internal	bathypelagic
+13414.89.s.R1.fastq.gz	bathypelagic	bathypelagic_skin	skin	external	open ocean	open ocean/external	bathypelagic
+13414.9.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.9.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.9.midgut.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.9.skin.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.90.g.R1.fastq.gz	bathypelagic	bathypelagic_gill	gill	external	open ocean	open ocean/external	bathypelagic
+13414.90.hg.R1.fastq.gz	bathypelagic	bathypelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	bathypelagic
+13414.90.midg.R1.fastq.gz	bathypelagic	bathypelagic_midgut	midgut	internal	open ocean	open ocean/internal	bathypelagic
+13414.90.s.R1.fastq.gz	bathypelagic	bathypelagic_skin	skin	external	open ocean	open ocean/external	bathypelagic
+13414.91.g.R1.fastq.gz	bathypelagic	bathypelagic_gill	gill	external	open ocean	open ocean/external	bathypelagic
+13414.91.hg.R1.fastq.gz	bathypelagic	bathypelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	bathypelagic
+13414.91.midg.R1.fastq.gz	bathypelagic	bathypelagic_midgut	midgut	internal	open ocean	open ocean/internal	bathypelagic
+13414.91.s.R1.fastq.gz	bathypelagic	bathypelagic_skin	skin	external	open ocean	open ocean/external	bathypelagic
+13414.92.g.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.92.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.92.s.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.93.g.R1.fastq.gz	mesopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.93.hg.R1.fastq.gz	mesopelagic	meso_benthopelagic_hindgut	hindgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.93.midg.R1.fastq.gz	mesopelagic	meso_benthopelagic_midgut	midgut	internal	open ocean	open ocean/internal	meso_benthopelagic
+13414.93.s.R1.fastq.gz	mesopelagic	meso_benthopelagic_skin	skin	external	open ocean	open ocean/external	meso_benthopelagic
+13414.94.g.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.94.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.94.midg.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.94.s.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.95.g.R1.fastq.gz	intertidal	intertidal_gill	gill	external	coastal	coastal/external	intertidal
+13414.95.hg.R1.fastq.gz	intertidal	intertidal_hindgut	hindgut	internal	coastal	coastal/internal	intertidal
+13414.95.midg.R1.fastq.gz	intertidal	intertidal_midgut	midgut	internal	coastal	coastal/internal	intertidal
+13414.95.s.R1.fastq.gz	intertidal	intertidal_skin	skin	external	coastal	coastal/external	intertidal
+13414.96.g.R1.fastq.gz	intertidal	intertidal_gill	gill	external	coastal	coastal/external	intertidal
+13414.96.hg.R1.fastq.gz	intertidal	intertidal_hindgut	hindgut	internal	coastal	coastal/internal	intertidal
+13414.96.midg.R1.fastq.gz	intertidal	intertidal_midgut	midgut	internal	coastal	coastal/internal	intertidal
+13414.96.s.R1.fastq.gz	intertidal	intertidal_skin	skin	external	coastal	coastal/external	intertidal
+13414.97.g.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.97.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.97.midg.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.97.s.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.98.g.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.98.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.98.midg.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.98.s.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.99.g.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.99.hg.R1.fastq.gz	neritic	neritic_hindgut	hindgut	internal	coastal	coastal/internal	neritic
+13414.99.midg.R1.fastq.gz	neritic	neritic_midgut	midgut	internal	coastal	coastal/internal	neritic
+13414.99.s.R1.fastq.gz	neritic	neritic_skin	skin	external	coastal	coastal/external	neritic
+13414.A1.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.A10.gill.R1.fastq.gz	intertidal	intertidal_gill	gill	external	coastal	coastal/external	intertidal
+13414.A11.gill.R1.fastq.gz	intertidal	intertidal_gill	gill	external	coastal	coastal/external	intertidal
+13414.A12.gill.R1.fastq.gz	mesopelagic	meso_benthopelagic_gill	gill	external	open ocean	open ocean/external	meso_benthopelagic
+13414.A13.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.A14.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.A18.gill.R1.fastq.gz	intertidal	intertidal_gill	gill	external	coastal	coastal/external	intertidal
+13414.A2.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.A20.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.A21.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.A22.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.A23.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.A3.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.A4.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.A5.gill.R1.fastq.gz	intertidal	intertidal_gill	gill	external	coastal	coastal/external	intertidal
+13414.A8.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
+13414.A9.gill.R1.fastq.gz	neritic	neritic_gill	gill	external	coastal	coastal/external	neritic
