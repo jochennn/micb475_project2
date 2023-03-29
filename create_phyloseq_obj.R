@@ -5,7 +5,7 @@ library(ape)
 library(tidyverse)
 
 ##### load in data needed #####
-metafp <- "./create_phyloseq_obj/inputs/binned_fish_metadata.txt"
+metafp <- "./create_phyloseq_obj/inputs/binned_fish_metadata2.txt"
 metadata <- read_delim(metafp, delim="\t")
 
 asvfp <- "./create_phyloseq_obj/inputs/feature-table.txt"
