@@ -1,4 +1,4 @@
-# load packages
+## load packages
 library(phyloseq)
 library(microbiome)
 library(ggVennDiagram)
@@ -46,6 +46,12 @@ ggVennDiagram(
   category.names=list("c/e", "c/i", "o/e", "o/i"),
   label="count"
   )
+
+ggVennDiagram(
+  x=list(c_e_core, c_i_core, o_e_core, o_i_core),
+  category.names=list("c/e", "c/i", "o/e", "o/i"),
+  label="count"
+)
 
 ## What are these ASVs?
 prune_taxa(o_e_core,fish_phyloseq_RA) %>%

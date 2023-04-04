@@ -1,4 +1,4 @@
-# load packages
+## load packages
 library(phyloseq)
 library(microbiome)
 library(ggVennDiagram)
@@ -181,12 +181,16 @@ ggVennDiagram(
 
 ## What are these ASVs?
 
-# found pseudomonas core microbiome in abyssalpelagic midgut
+# found pseudomonas, staphylococcus, streptococcus core microbiome in abyssalpelagic midgut
 prune_taxa(am,fish_phyloseq_RA) %>%
   plot_bar(, fill="Genus") +
   facet_wrap(.~anat_hab, scales="free")
 
 # found lots of synechococcus in the gut and skin
+prune_taxa(am,fish_phyloseq_RA) %>%
+  plot_bar(, fill="Genus") +
+  facet_wrap(.~anat_hab, scales="free")
+
 prune_taxa(ms,fish_phyloseq) %>%
   plot_bar(, fill="Genus") +
   facet_wrap(.~anat_hab, scales="free")
