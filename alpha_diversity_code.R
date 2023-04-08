@@ -40,38 +40,38 @@ ggsave(filename = "alpha_diversity/ggplot_anatomical_location.png"
        , gg_richness_anatomical_location
        , height=4, width=6)
 
-#### Faceting by spatial region ####
+#### Faceting by anatomical location ####
 plot_richness(fish_phyloseq, x = "spatial_region", measures = c("Shannon")) +
   xlab("Spatial region") +
   geom_boxplot() +
   facet_grid(. ~ anatomical_location)
 
-gg_richness_spatial_region_faceted <- plot_richness(fish_phyloseq, x = "spatial_region", measures = c("Shannon")) +
+gg_richness_anatomical_location_faceted <- plot_richness(fish_phyloseq, x = "spatial_region", measures = c("Shannon")) +
   xlab("Spatial region") +
   geom_boxplot() +
   facet_grid(. ~ anatomical_location)
-
-gg_richness_spatial_region_faceted
-
-ggsave(filename = "alpha_diversity/ggplot_spatial_region_faceted.png"
-       , gg_richness_spatial_region_faceted
-       , height=4, width=6)
-
-#### Faceting by anatomical location ####
-plot_richness(fish_phyloseq, x = "anatomical_location", measures = c("Shannon")) +
-  xlab("Anatomical sample location") +
-  geom_boxplot() + 
-  facet_grid(. ~ spatial_region)
-
-gg_richness_anatomical_location_faceted <- plot_richness(fish_phyloseq, x = "anatomical_location", measures = c("Shannon")) +
-  xlab("Anatomical sample location") +
-  geom_boxplot() + 
-  facet_grid(. ~ spatial_region)
 
 gg_richness_anatomical_location_faceted
 
 ggsave(filename = "alpha_diversity/ggplot_anatomical_location_faceted.png"
        , gg_richness_anatomical_location_faceted
+       , height=4, width=6)
+
+#### Faceting by spatial region ####
+plot_richness(fish_phyloseq, x = "anatomical_location", measures = c("Shannon")) +
+  xlab("Anatomical sample location") +
+  geom_boxplot() + 
+  facet_grid(. ~ spatial_region)
+
+gg_richness_spatial_region_faceted <- plot_richness(fish_phyloseq, x = "anatomical_location", measures = c("Shannon")) +
+  xlab("Anatomical sample location") +
+  geom_boxplot() + 
+  facet_grid(. ~ spatial_region)
+
+gg_richness_spatial_region_faceted
+
+ggsave(filename = "alpha_diversity/ggplot_spatial_region_faceted.png"
+       , gg_richness_spatial_region_faceted
        , height=4, width=6)
 
 #### Wilcox rank sum test on graph using stat_compare_means() ####
