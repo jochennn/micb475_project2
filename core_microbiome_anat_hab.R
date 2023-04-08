@@ -1,4 +1,4 @@
-# load packages
+## load packages
 library(phyloseq)
 library(microbiome)
 library(ggVennDiagram)
@@ -138,9 +138,9 @@ im <- core_members(im_phyloseq, detection=0.001, prevalence=0.5)
 ih <- core_members(ih_phyloseq, detection=0.001, prevalence=0.5)
 
 #abyssalpelagic
-ag <- core_members(ag_phyloseq, detection=0.001, prevalence=0.95)
-as <- core_members(as_phyloseq, detection=0.001, prevalence=0.95)
-am <- core_members(am_phyloseq, detection=0.001, prevalence=0.95)
+ag <- core_members(ag_phyloseq, detection=0.01, prevalence=0.95)
+as <- core_members(as_phyloseq, detection=0.01, prevalence=0.95)
+am <- core_members(am_phyloseq, detection=0.01, prevalence=0.95)
 
 #bathypelagic
 bg <- core_members(bg_phyloseq, detection=0.001, prevalence=0.5)
@@ -181,12 +181,16 @@ ggVennDiagram(
 
 ## What are these ASVs?
 
-# found pseudomonas core microbiome in abyssalpelagic midgut
+# found pseudomonas, staphylococcus, streptococcus core microbiome in abyssalpelagic midgut
 prune_taxa(am,fish_phyloseq_RA) %>%
   plot_bar(, fill="Genus") +
   facet_wrap(.~anat_hab, scales="free")
 
 # found lots of synechococcus in the gut and skin
+prune_taxa(am,fish_phyloseq_RA) %>%
+  plot_bar(, fill="Genus") +
+  facet_wrap(.~anat_hab, scales="free")
+
 prune_taxa(ms,fish_phyloseq) %>%
   plot_bar(, fill="Genus") +
   facet_wrap(.~anat_hab, scales="free")
@@ -210,4 +214,11 @@ prune_taxa(ih,fish_phyloseq) %>%
 prune_taxa(bm,fish_phyloseq) %>%
   plot_bar(, fill="Genus") +
   facet_wrap(.~anat_hab, scales="free")
+
+# visualise synechococcus as common core microbiome genus
+ggVennDiagram(
+  x=list(am, ms, mm, ns, is, ih, bm),
+  category.names=list("A.M.", "M.S.", "M.M.", "N.S.", "I.S.", "I.H.", "B.M."),
+  label="count"
+)
 
