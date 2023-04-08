@@ -48,8 +48,8 @@ ggVennDiagram(
   )
 
 ggVennDiagram(
-  x=list(c_e_core, c_i_core, o_e_core, o_i_core),
-  category.names=list("c/e", "c/i", "o/e", "o/i"),
+  x=list(o_e_core, o_i_core),
+  category.names=list("open ocean/external", "open ocean/internal"),
   label="count"
 )
 
@@ -61,3 +61,4 @@ prune_taxa(o_e_core,fish_phyloseq_RA) %>%
 prune_taxa(o_i_core,fish_phyloseq_RA) %>%
   plot_bar(, fill="Genus") +
   facet_wrap(.~anat_space_combine, scales="free")
+
