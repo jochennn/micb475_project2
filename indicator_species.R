@@ -3,6 +3,8 @@ library(phyloseq)
 library(indicspecies)
 library(tidyverse)
 library(ggplot2)
+library(dplyr)
+library(gridExtra)
 
 ## load phyloseq object
 load("./create_phyloseq_obj/outputs/fish_phyloseq.Rdata")
@@ -24,7 +26,9 @@ isa_fish <-
 summary(isa_fish)
 
 taxtable <- 
-  tax_table(fish_phyloseq) %>% as.data.frame() %>% rownames_to_column(var="ASV")
+  tax_table(fish_phyloseq) %>% 
+  as.data.frame() %>% 
+  rownames_to_column(var="ASV")
 
 fish_table <- isa_fish$sign %>%
   rownames_to_column(var="ASV") %>%
@@ -183,7 +187,7 @@ fish_table_view <-
 
 View(fish_table_view)
 
-#formatting the table
+## formatting the table for easier viewing ##
 
 CE <- data.frame(
   x = "Coastal_External", 
@@ -224,41 +228,70 @@ fish_table2$taxon <-
   ifelse(fish_table2$taxon == "NA", NA, fish_table2$taxon)
 
 fish_table3 <- 
-  fish_table2[complete.cases(fish_table2$taxon), ]
+  fish_table2[complete.cases(fish_table2$taxon), ] %>%
+  separate(col = taxon, into = c("level", "taxon"), sep = "__")
 
-fish_table4 <- 
-  separate(fish_table3, col = taxon, into = c("level", "taxon"), sep = "__")
+for (i in 1:nrow(fish_table3)) {
+  if (fish_table3$level[i] == "g") {fish_table3$level[i] <- "Genus"}
+  if (fish_table3$level[i] == "f") {fish_table3$level[i] <- "Family"}
+  if (fish_table3$level[i] == "o") {fish_table3$level[i] <- "Order"}
+  if (fish_table3$level[i] == "c") {fish_table3$level[i] <- "Class"}
+  if (fish_table3$level[i] == "p") {fish_table3$level[i] <- "Phylum"}
+  if (fish_table3$level[i] == "d") {fish_table3$level[i] <- "Domain"}
+  }
 
-fish_table4$level <- 
-  ifelse(fish_table4$level == "g", "Genus", fish_table4$level)
-fish_table4$level <- 
-  ifelse(fish_table4$level == "f", "Family", fish_table4$level)
-fish_table4$level <- 
-  ifelse(fish_table4$level == "o", "Order", fish_table4$level)
-fish_table4$level <- 
-  ifelse(fish_table4$level == "c", "Class", fish_table4$level)
-fish_table4$level <- 
-  ifelse(fish_table4$level == "p", "Phylum", fish_table4$level)
-fish_table4$level <- 
-  ifelse(fish_table4$level == "d", "Domain", fish_table4$level)
+View(fish_table3)
 
-
-View(fish_table4)
-
-# saving data as .tsv
+## Saving data as .tsv ##
 write.table(
-  fish_table4, 
+  fish_table3, 
   file = "./indicator_species/outputs/fish_indic_spp.tsv", 
   sep = "\t", 
   row.names = FALSE
 )
 
+## Saving Data as PDF ##
+# Set the font size and style
+theme_set(theme_gray(base_size = 3, base_family = "Arial"))
 
+#OceanExternal
+OceanInternalTable <- 
+  subset(fish_table3, anat_space_combine == "Ocean_Internal") %>% 
+  arrange(desc(index)) %>%
+  subset(select = -c(anat_space_combine)) 
 
+pdf("./indicator_species/outputs/OceanInternalTable.pdf", width = 7, height = 32)
+grid.table(OceanInternalTable)
+dev.off()
 
+#OceanExternal
+OceanExternalTable <- 
+  subset(fish_table3, anat_space_combine == "Ocean_External") %>% 
+  arrange(desc(index)) %>%
+  subset(select = -c(anat_space_combine))
 
+pdf("./indicator_species/outputs/OceanExternalTable.pdf", width = 7, height = 25)
+grid.table(OceanExternalTable)
+dev.off()
 
+#CoastalInternal
+CoastalInternalTable <- 
+  subset(fish_table3, anat_space_combine == "Coastal_Internal") %>% 
+  arrange(desc(index)) %>%
+  subset(select = -c(anat_space_combine))
 
+pdf("./indicator_species/outputs/CoastalInternalTable.pdf", width = 5, height = 8)
+grid.table(CoastalInternalTable)
+dev.off()
 
+#CoastalExternal
+CoastalExternalTable <- 
+  subset(fish_table3, anat_space_combine == "Coastal_External") %>% 
+  arrange(desc(index)) %>%
+  subset(select = -c(anat_space_combine))
+
+pdf("./indicator_species/outputs/CoastalExternalTable.pdf", width = 5, height = 5)
+grid.table(CoastalExternalTable)
+dev.off()
 
 
