@@ -179,7 +179,7 @@ fish_table_view <-
            Coastal_Internal, 
            Ocean_External, 
            Ocean_Internal,
-           index,
+           stat,
            p.value
          )
   )
@@ -192,35 +192,35 @@ View(fish_table_view)
 CE <- data.frame(
   x = "Coastal_External", 
   y = fish_table_view$Coastal_External,
-  z = fish_table_view$index,
+  z = fish_table_view$stat,
   w = fish_table_view$p.value
   )
 
 CI <- data.frame(
   x = "Coastal_Internal", 
   y = fish_table_view$Coastal_Internal,
-  z = fish_table_view$index,
+  z = fish_table_view$stat,
   w = fish_table_view$p.value
 )
 
 OE <- data.frame(
   x = "Ocean_External", 
   y = fish_table_view$Ocean_External,
-  z = fish_table_view$index,
+  z = fish_table_view$stat,
   w = fish_table_view$p.value
 )
 
 OI <- data.frame(
   x = "Ocean_Internal", 
   y = fish_table_view$Ocean_Internal,
-  z = fish_table_view$index,
+  z = fish_table_view$stat,
   w = fish_table_view$p.value
 )
 
 fish_table2 <- data.frame(
   anat_space_combine = c(OE$x, OI$x, CE$x, CI$x),
   taxon = c(OE$y, OI$y, CE$y, CI$y),
-  index = c(OE$z, OI$z, CE$z, CI$z),
+  stat = c(OE$z, OI$z, CE$z, CI$z),
   p.value = c(OE$w, OI$w, CE$w, CI$w)
 )
 
@@ -257,7 +257,7 @@ theme_set(theme_gray(base_size = 3, base_family = "Arial"))
 #OceanExternal
 OceanInternalTable <- 
   subset(fish_table3, anat_space_combine == "Ocean_Internal") %>% 
-  arrange(desc(index)) %>%
+  arrange(desc(stat)) %>%
   subset(select = -c(anat_space_combine)) 
 
 pdf("./indicator_species/outputs/OceanInternalTable.pdf", width = 7, height = 32)
@@ -267,7 +267,7 @@ dev.off()
 #OceanExternal
 OceanExternalTable <- 
   subset(fish_table3, anat_space_combine == "Ocean_External") %>% 
-  arrange(desc(index)) %>%
+  arrange(desc(stat)) %>%
   subset(select = -c(anat_space_combine))
 
 pdf("./indicator_species/outputs/OceanExternalTable.pdf", width = 7, height = 25)
@@ -277,7 +277,7 @@ dev.off()
 #CoastalInternal
 CoastalInternalTable <- 
   subset(fish_table3, anat_space_combine == "Coastal_Internal") %>% 
-  arrange(desc(index)) %>%
+  arrange(desc(stat)) %>%
   subset(select = -c(anat_space_combine))
 
 pdf("./indicator_species/outputs/CoastalInternalTable.pdf", width = 5, height = 8)
@@ -287,7 +287,7 @@ dev.off()
 #CoastalExternal
 CoastalExternalTable <- 
   subset(fish_table3, anat_space_combine == "Coastal_External") %>% 
-  arrange(desc(index)) %>%
+  arrange(desc(stat)) %>%
   subset(select = -c(anat_space_combine))
 
 pdf("./indicator_species/outputs/CoastalExternalTable.pdf", width = 5, height = 5)
