@@ -53,6 +53,12 @@ ggVennDiagram(
   label="count"
 )
 
+ggVennDiagram(
+  x=list(c_i_core, o_i_core),
+  category.names=list("coastal/internal", "open ocean/internal"),
+  label="count"
+)
+
 ## What are these ASVs?
 prune_taxa(o_e_core,fish_phyloseq_RA) %>%
   plot_bar(, fill="Genus") +

@@ -2,3 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
+indicator_species/outputs/.DS_Store
+indicator_species/.DS_Store
+create_phyloseq_obj/.DS_Store
+binning_metadata/.DS_Store
+.DS_Store
