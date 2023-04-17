@@ -58,8 +58,8 @@ sigASVs <- tax_table(fish_phyloseq_DESeq) %>% as.data.frame() %>%
 barplot_deseq <- ggplot(sigASVs) +
   geom_bar(aes(x=Genus, y=log2FoldChange), stat="identity")+
   geom_errorbar(aes(x=Genus, ymin=log2FoldChange-lfcSE, ymax=log2FoldChange+lfcSE)) +
-  theme(axis.text.x = element_text(angle=90, hjust=1, vjust=0.5))
+  theme(axis.text.x = element_text(angle=90, hjust=1, vjust=0.5, size = 8))
 
 ggsave("./deseq_OIvCI/CIvOI_barplot_deseq.png",
        barplot_deseq
-       ,height=4,width=4)
+       ,height=5,width=16)
