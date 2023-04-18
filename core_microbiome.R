@@ -41,11 +41,20 @@ o_e_core <- core_members(o_e_phyloseq, detection=0.001, prevalence=0.5)
 o_i_core <- core_members(o_i_phyloseq, detection=0.001, prevalence=0.5)
 
 ## venn diagram
-ggVennDiagram(
+venn <- ggVennDiagram(
   x=list(c_e_core, c_i_core, o_e_core, o_i_core),
-  category.names=list("c/e", "c/i", "o/e", "o/i"),
+  category.names=list("Coastal External", 
+                      "Coastal Internal", 
+                      "Open Ocean External", 
+                      "Open Ocean Internal"
+                      ),
   label="count"
-  )
+  ) +
+  scale_x_continuous(expand = expansion(mult = .2))
+
+ggsave("./core_microbiome/core_microbiome.png",
+       venn
+       ,height=5,width=15)
 
 ggVennDiagram(
   x=list(o_e_core, o_i_core),
@@ -58,6 +67,8 @@ ggVennDiagram(
   category.names=list("coastal/internal", "open ocean/internal"),
   label="count"
 )
+
+
 
 ## What are these ASVs?
 prune_taxa(o_e_core,fish_phyloseq_RA) %>%

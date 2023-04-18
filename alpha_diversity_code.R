@@ -24,7 +24,7 @@ gg_richness_spatial_region <-
 
 ggsave(filename = "./alpha_diversity/ggplot_spatial_region.png"
        , gg_richness_spatial_region
-       , height=4, width=6)
+       , height=5, width=4)
 
 #### Add ggplot layers for anatomical location ####
 gg_richness_anatomical_location <- 
@@ -32,12 +32,12 @@ gg_richness_anatomical_location <-
                 x = "anatomical_location", 
                 measures = c("Shannon")
                 ) +
-  xlab("Anatomical sample location") +
+  xlab("Anatomical location") +
   geom_boxplot()
 
 ggsave(filename = "./alpha_diversity/ggplot_anatomical_location.png"
        , gg_richness_anatomical_location
-       , height=4, width=6)
+       , height=5, width=4)
 
 #### Faceting by anatomical location ####
 gg_richness_anatomical_location_faceted <- 
